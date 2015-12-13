@@ -1,0 +1,24 @@
+<!ELEMENT ad_service (users?,ads?)>
+
+<!ELEMENT users (user+)>
+<!ELEMENT user (user_name,name, last_name, date_of_reg, email)>
+<!ELEMENT ads (ad+)>
+<!ELEMENT ad (user_name, post_id, description, pic, date_added, item_location, title, price)>
+
+
+<!ELEMENT user_name (#PCDATA)>
+<!ATTLIST user_name is_admin (yes | no) #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT date_of_reg (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+
+<!ELEMENT post_id (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pic (#PCDATA)>
+<!ELEMENT date_added (#PCDATA)>
+<!ATTLIST ad category (Computer | Car | Furniture | Clothing | Books | Other) #REQUIRED>
+<!ELEMENT item_location (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

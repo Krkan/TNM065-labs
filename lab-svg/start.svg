@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     version="1.1" baseProfile="full" 
+     width="5cm" height="20cm">
+            
+
+<g>
+	<g>
+  <circle cx="72" cy="72" r="64" 
+    style="fill:yellow;stroke:black;stroke-width:4"/>
+    <path d="M30.399,74.633c16.841,23.034,53.97,43.701,86.431,5.017c-1.459-0.969-2.388-1.513-4.608-2.146  c3.702-1.643,10.889,0.622,10.294,6.878c-1.491-2.17-3.346-3.461-3.346-3.461c-38.763,50.08-75.706,36.05-90.756-4.703  c-1.051,0.929-1.778,1.576-3.316,3.822c-1.13-5.722,5.337-10.087,10.47-8.349C33.143,72.66,31.981,73.365,30.399,74.633z"/>
+	<ellipse cx="55.203" cy="51.5" rx="6.704" ry="13.417"/>
+	<ellipse cx="87.667" cy="51.5" rx="6.704" ry="13.417"/>
+
+ <text x="47" y="29"> IZMIR 
+ 
+ <animate attributeType="XML" attributeName="fill" values="red; blue; green; yellow; red" dur="6s" repeatCount="indefinite"/> </text>
+	
+  <animateTransform attributeName="transform" type="rotate" begin="0s" dur="3s" values="0 72 72; 700 72 72; 0 72 72" repeatCount="indefinite"/>
+				
+   </g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 500;0 0" begin="0s" dur="3s" repeatCount="indefinite" />
+
+  </g>
+    
+  <g>
+    <line x1="72" y1="0" x2="72" style="stroke:rgb(0,0,0);stroke-width:5">
+     
+	 <animate attributeType="XML" attributeName="y2" values="10;505;10" dur="3s" repeatCount="indefinite"/>
+    
+	</line>
+  </g>
+
+</svg>

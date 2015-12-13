@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ad_service SYSTEM "http://84.216.133.49/TNM065/project-dtd/users.dtd">
+
+<ad_service>
+
+<users>
+<user>
+<user_name is_admin="no">kek</user_name>
+<name>fake</name>
+<last_name>lname</last_name>
+<date_of_reg>some date</date_of_reg>
+<email>sss@hotmail.com</email>
+</user>
+
+</users>
+
+
+<ads>
+<ad category="Car">
+<user_name>name</user_name>
+<post_id>24234</post_id>
+<description>des</description>
+<image>derp.jpg</image>
+<date_added>some date</date_added>
+<item_location>loc</item_location>
+<title>derp</title>
+</ad>
+</ads>
+
+</ad_service>
